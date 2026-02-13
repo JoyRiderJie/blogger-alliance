@@ -300,10 +300,11 @@ export const bloggersData = [
     id: 19,
     name: '黑心萝卜三条杠',
     avatar: 'https://api.dicebear.com/7.x/identicon/svg?seed=luobu&backgroundColor=FFF5E9',
-    introduction: '持续输出前端实践与项目复盘，擅长用图表和案例讲解复杂问题。',
+    introduction: '持续输出实践与项目复盘，擅长用图表和案例讲解复杂问题。',
     followers: '12K+',
     socialAccounts: [
-      { platform: '掘金', url: 'https://juejin.cn/user/4394083322176301', icon: '📝' },
+      { platform: '掘金', url: 'https://juejin.cn/user/4394083322176301', icon: '📝' ,},
+      { platform: 'CSDN', url: 'https://blog.csdn.net/qq_53960242', icon: '💻' },
     ],
     expandedContent: {
       specialties: ['前端开发', '工程化', '可视化'],
